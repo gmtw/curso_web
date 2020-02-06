@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Controlando Audio y Video de HTML5 con javascript</title>
+</head>
+<body>
+	<video src="/home/julio/Vídeos/whiplash.mp4" id="video" width="500" controls>
+		<p>Tu navegador no soporta videos en HTML5, por favor actualízalo</p>
+	</video>
+	<br>
+
+	<audio src="/home/julio/Música/whiplash.mp3" id="audio" controls>
+		<p>Tu navegador no soporta audios en HTML5, por favor actualízalo</p>
+	</audio>
+	<br>
+
+	<button id="play">Reproducir</button>
+	<button id="pause">Pausar</button>
+
+	<input type="range" value="1" min="0" max="1" step="0.1" id="volume">
+
+	<script>
+		var video = document.getElementById('video'),
+			btnPlay = document.getElementById('play'),
+			btnPause = document.getElementById('pause'),
+			volumen = document.getElementById('volume');
+
+			btnPlay.addEventListener('click',function () {
+				video.play();
+				document.body.style.background = '#000';
+			});
+
+			btnPause.addEventListener('click',function () {
+				video.pause();
+				document.body.style.background = '#fff';
+			});
+
+			volumen.addEventListener('change', function () {
+				video.volume = volume.value;
+			})
+
+
+		
+	</script>
+</body>
+</html>

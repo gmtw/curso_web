@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Sans-serif;
+  background: #21295c;
+  color: #cf5c36;
+}
+
+.contenedor {
+  width: 300px;
+  margin: 100px;
+  background: #497937;
+  padding: 20px;
+}
+
+form p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #000;
+}
+form .btn {
+  width: 100%;
+  background: #E114BE;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

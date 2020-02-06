@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>localStorage</title>
+</head>
+<body>
+	<script>
+		if (typeof(Storage) !== 'undefined') {
+			localStorage.setItem('nombre', 'Julio césar')
+		} else {
+			document.write('Tu navegador no soporta Local Storage');
+		}
+	</script>
+	
+</body>
+</html>

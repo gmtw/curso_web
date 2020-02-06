@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="edge">
+
+	<link href="https://vjs.zencdn.net/7.3.0/video-js.min.css" rel="stylesheet">
+	<script src="https://vjs.zencdn.net/7.3.0/video.min.js"></script>
+
+
+	<link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<title>video</title>
+</head>
+<body>
+	<header>
+		<h1 class="titulo">Lorem ipsum incididunt ut ut ut nulla.</h1>
+	</header>
+
+	<main>
+		<div class="contenedor">
+			<video controls id="fm-video" class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup='{}'>
+				<source src="/home/julio/Vídeos/whiplash.mp4" type="video/mp4" >
+			</video>
+			
+			<article>
+				<h2>Occaecat sint est commodo.</h2>
+
+				<p>Laboris est anim duis deserunt veniam excepteur nostrud aliquip dolor ut do dolore ad.</p>
+
+				<p>Reprehenderit mollit eu minim veniam esse voluptate aute laborum sit ad consequat nostrud duis ut magna exercitation incididunt reprehenderit aliqua anim eu qui culpa voluptate et sed eu amet anim excepteur laboris mollit.</p>
+			</article>
+		</div>
+	</main>
+	<script>
+		reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+	
+</body>
+</html>

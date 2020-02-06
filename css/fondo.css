@@ -1,0 +1,10 @@
+body{
+	/*background: #831919;*/
+	background: url("img/bg.jpg");
+	background-repeat:no-repeat; 
+	
+	background-size:50%;
+
+	background-attachment: fixed; 
+
+}

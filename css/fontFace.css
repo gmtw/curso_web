@@ -1,0 +1,19 @@
+@font-face{
+	font-family: "CourierPrime";
+	src: url('fonts/CourierPrime-Regular.ttf');
+}
+
+@font-face{
+	font-family: "CourierPrime-Bold";
+	src: url('fonts/CourierPrime-Bold.ttf');
+}
+
+
+body{
+    font-family: 'Noto Serif', serif;
+
+
+}
+h1{
+	font-weight: normal;
+}
